@@ -16,4 +16,5 @@ You need QGIS, version 2.x and active Processing toolbox. Copy script files into
 If you are satisfied with RasterBestFitScatterplot you can donate
 
 BTC: 1MbZRqjCvkDNbEy1iQfw3SiXyBrMSgW4Dt
+
 ETH: 0x90708736db05f667c3b70230bf90b1aa196afc79
