@@ -1,10 +1,12 @@
 # RasterBestFitScatterplot
 
-Raster Best Fit Scatterplot is simple script for QGIS users which need to use simple analysis of relation between two rasters. This script is able to draw scatterplot of two rasters with the same spatial extent, size and number of pixels. Script uses four regression method for analysis: 
-– linear regression
-– logarithmic regression
-– exponential regression
-– power regression
+Raster Best Fit Scatterplot is simple script for QGIS users which need to use simple analysis of relation between two rasters. This script is able to draw scatterplot of two rasters with the same spatial extent, size and number of pixels. Script uses four regression method for analysis:
+  
+    – linear regression
+    – logarithmic regression
+    – exponential regression
+    – power regression
+
 Method selection is automatic and it is based on the best result of regression analysis (the highest regression coefficient). Rasters used for analysis should have the same spatial pattern (size and number of pixels). 
 
 ## Installation
