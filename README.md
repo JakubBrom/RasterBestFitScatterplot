@@ -1,17 +1,13 @@
-# RasterScatterplot
-
-*Version 0.2*
-
-The plugin provides quick information about the relation between two rasters with the same spatial extent (i.e. number of columns and rows) in the form of scatterplot and regression analysis. The following methods of regression analysis are available: linear, logarithmic, exponential and power. The plugin allows the automatic selection of the best method.
 
 
-**Install**
+Raster Best Fit Scatterplot is simple script for QGIS users which need to use simple analysis of relation between two rasters. This script is able to draw scatterplot of two rasters with the same spatial extent, size and number of pixels. Script uses four regression method for analysis:
 
-Download the plugin in zip format and add it to QGIS using the plugin manager (Plugins/Manage and Install Plugin). Plugin Raster Scatterplot is available for QGIS 3.+
+– linear regression
+– logarithmic regression
+– exponential regression
+– power regression
 
+Method selection is automatic and it is based on the best result of regression analysis (the highest regression coefficient). Rasters used for analysis should have the same spatial pattern (size and number of pixels).
+Installation
 
-**Donation**
-
-If you are satisfied with this script you can support future development
-
-BTC: 1MbZRqjCvkDNbEy1iQfw3SiXyBrMSgW4Dt
+You need QGIS, version 2.x and active Processing toolbox. Copy script files into the Scripts folder (see Processing/Options/Scripts/Scripts folder). It is also possible installing script from Processing tools panel: Scripts/Tools/Add script from file. The second way is easier however only script without help is installed.
